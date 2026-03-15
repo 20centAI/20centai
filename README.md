@@ -185,14 +185,18 @@ User Input
                     count_messages() >= COMPRESS_THRESHOLD?
                            │
                     compress_chat()  ←  active model summarizes oldest N
-```
+---
+
+## 🤯 Why It Works
+*Your brain compresses 20 years → 2-minute story.
+20centAI compresses 1000 messages → 300 tokens.*
+
+**Bio-inspired token compression.**
 
 ---
 
 ## License
-
 MIT — fork it, ship it, make it yours.
 
 ---
-
 *The code was created by [claude.ai](https://claude.ai) in cooperation with [perplexity.ai](https://perplexity.ai) and [deepseek.com](https://deepseek.com).*
