@@ -186,6 +186,7 @@ User Input
                            │
                     compress_chat()  ←  active model summarizes oldest N
 ---
+---
 
 ## 🤯 Why It Works
 *Your brain compresses 20 years → 2-minute story.
