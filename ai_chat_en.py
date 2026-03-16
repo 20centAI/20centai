@@ -69,7 +69,7 @@ PRICES = {
     "DeepSeek V3":        {"input": 0.0281,  "output": 0.42},
     "DeepSeek R1":        {"input": 0.0281,  "output": 0.42},
     "Perplexity Sonar":   {"input": 1.0,   "output": 1.0},
-    "Qwen Max":           {"input": p.3,   "output": 1.49},
+    "Qwen Max":           {"input": 0.3,   "output": 1.49},
     "Qwen Plus":          {"input": 0.2,   "output": 0.8},
     "Qwen Turbo":         {"input": 0.1,  "output": 0.4},
     "Groq Llama 3.3 70B": {"input": 0.59,  "output": 0.79},
