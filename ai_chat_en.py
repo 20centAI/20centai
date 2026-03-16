@@ -48,9 +48,9 @@ MODELS = {
     "Perplexity Sonar":   {"id": "sonar-pro",                  "env": "PERPLEXITY_API_KEY", "url": "https://api.perplexity.ai/chat/completions"},
 
     # ── Qwen (Alibaba) ─────────────────────────────────────────────────────────
-    "Qwen Max":           {"id": "qwen-max",                   "env": "DASHSCOPE_API_KEY",  "url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions"},
-    "Qwen Plus":          {"id": "qwen-plus",                  "env": "DASHSCOPE_API_KEY",  "url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions"},
-    "Qwen Turbo":         {"id": "qwen-turbo",                 "env": "DASHSCOPE_API_KEY",  "url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions"},
+    "Qwen Max":           {"id": "qwen-max",                   "env": "QWEN_API_KEY",  "url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions"},
+    "Qwen Plus":          {"id": "qwen-plus",                  "env": "QWEN_API_KEY",  "url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions"},
+    "Qwen Turbo":         {"id": "qwen-turbo",                 "env": "QWEN_API_KEY",  "url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions"},
 
     # ── Groq (fast & cheap inference) ─────────────────────────────────────────
     "Groq Llama 3.3 70B": {"id": "llama-3.3-70b-versatile",   "env": "GROQ_API_KEY",       "url": "https://api.groq.com/openai/v1/chat/completions"},
