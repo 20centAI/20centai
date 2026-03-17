@@ -67,10 +67,14 @@ rolling-window compression that anyone can read, fork, and modify in an afternoo
 Tested on **Linux** (Ubuntu 22.04+). Should also work on macOS and Windows WSL2.
 
 ```bash
-# 1. Install dependencies
+# 1. Create and activate virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 2. Install dependencies
 pip install streamlit anthropic requests python-dotenv
 
-# 2. Create .env file with your API keys
+# 3. Create .env file with your API keys
 cat > .env << 'EOF'
 ANTHROPIC_API_KEY=sk-ant-...
 OPENAI_API_KEY=sk-...
@@ -81,8 +85,11 @@ DASHSCOPE_API_KEY=sk-...
 GROQ_API_KEY=gsk_...
 EOF
 
-# 3. Run
+# 4. Run
 streamlit run ai_chat_en.py
+
+# Next time just:
+source .venv/bin/activate && streamlit run ai_chat_en.py
 ```
 
 All keys are optional — unavailable providers are disabled automatically at startup.
