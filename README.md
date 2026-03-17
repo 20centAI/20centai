@@ -16,6 +16,12 @@ I had to manually copy everything into another interface. Context lost. Time los
 One week later, 20centAI existed.
 
 ---
+## Screenshots
+
+![Start](screenshots/screenshot_start.png)
+![Compressed Chat](screenshots/screenshot_compressed_chat.png)
+
+---
 
 ## What Is 20centAI?
 
